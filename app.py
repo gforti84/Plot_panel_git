@@ -69,7 +69,3 @@ panel_app()
 
 # --> remove the pn.serve(...) from the main() and use this in the terminal
 # panel serve app.py --show --autoreload --port 9001 --allow-websocket-origin *:9001 --allow-websocket-origin=*
-
-
-# panel serve app.py --show --autoreload --port 9001 --allow-websocket-origin *:9001 --allow-websocket-origin=* --basic-auth my_password --cookie-secret my_super_safe_cookie_secret
-
