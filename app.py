@@ -3,7 +3,6 @@
 #                                                                                #
 #                                Python Plot                                     #
 #           Authors: Gabriel Mendonça and Caio Moura                             #
-#                         Last change date: 30/01/2024                           #
 #                                                                                #
 #   Description: web based tool for ofering python ploting functionalities.      #
 #                The ploting data is gathered from a google sheet. Main ploting  #
