@@ -1,0 +1,1 @@
+Panel for using interactive python plot functionalities for Google Sheet.
