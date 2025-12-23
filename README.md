@@ -36,6 +36,9 @@ There are several options to edit the image, for example:
 Also, the spreadshet can have multiple Sheets, selectable using the dropdown menu 'Select plot tab'.
 
 'Update data' button will refresh plot to default.
+
+For further documentation about the Panel:
+- https://panel.holoviz.org/
  
  
 
