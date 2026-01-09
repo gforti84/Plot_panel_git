@@ -39,7 +39,7 @@ def panel_app():
 
     exp_txt = pn.pane.Str('I am the Assistant to the Regional Manager, please give me the credential file')
     
-    dash = pn.Row(pn.Column(img, exp_txt, file_input)).servable()
+    dash_holder = pn.pane.Placeholder(pn.Row(pn.Column(img, exp_txt, file_input))).servable()
    
     def up_file(event):
         byte_str = event.new
@@ -50,11 +50,11 @@ def panel_app():
         sh_name = 'Pattern_Data'
         workbook = certifyGspread(keyfile_dict, sh_name)
 
-        dash[0] = run_panel(workbook, keyfile_dict)
+        dash_holder.update(run_panel(workbook, keyfile_dict))
 
     file_input.param.watch(up_file, 'value')
     
-    return dash
+    return dash_holder
     
 # def main():
 

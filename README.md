@@ -1,4 +1,12 @@
-Panel for using interactive python plot functionalities for Google Sheet.
+#Introduction
+
+WebUI for using interactive python plot functionalities for Google Sheet. The WebUI is developed using the [Panel](https://panel.holoviz.org/) library.
+This library allows to get data from the Google Sheet, which follows a defined pattern, and generate a Figure which can be downloaded in .png or .pdf formats.
+It allows also user manipulation of the Figure, such as legeng format and placement, traces style and others.
+
+#How to Start
+
+First, one must create an Python environment with the modules as listed in the ´requirements.txt´.
 
 To allow the interaction with Google Sheet API, please follow the instructions from Step 1 to Step 3 in [GeekforGeekds](https://www.geeksforgeeks.org/google-sheets/how-to-automate-google-sheets-with-python/)
 
