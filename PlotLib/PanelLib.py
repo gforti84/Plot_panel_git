@@ -1017,10 +1017,8 @@ def run_panel(workbook, keyfile_dict):
     dash_iter = pn.Column(select, fig_size, txt_lw, select_fileformat, dash_Button, mpl_pane)
 
     plot_ctrl = pn.Row(dash_fig_ctrl, clr_ls_grid)
-    # plot_view = pn.Column(plot_ctrl, )
 
-    # dash = pn.Row(dash_fig_ctrl, mpl_pane, dash_iter, color_curves, pn.Spacer(width = 10), style_curves).servable()    
-    # dash = pn.Row(dash_fig_ctrl, mpl_pane, clr_ls_grid, dash_iter).servable()    
-    dash = pn.Row(plot_ctrl, dash_iter).servable()
+    
+    dash = pn.Row(plot_ctrl, dash_iter)
 
     return dash
