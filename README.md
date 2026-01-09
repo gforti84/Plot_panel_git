@@ -2,13 +2,13 @@
 
 WebUI for using interactive python plot functionalities for Google Sheet. The WebUI is developed using the [Panel](https://panel.holoviz.org/) library.
 This library allows to get data from the Google Sheet, which follows a defined pattern, and generate a Figure which can be downloaded in `.png` or `.pdf` formats.
-It allows also user manipulation of the Figure, such as legeng format and placement, traces style and others.
+It allows also user manipulation of the Figure, such as legend format and placement, traces style and others.
 
 # How to Start
 
-First, one must create an Python environment with the modules as listed in the `requirements.txt`.
+First, one must create a Python environment with the modules as listed in the `requirements.txt`.
 
-To allow the interaction with Google Sheet API, please follow the instructions from Step 1 to Step 3 in [GeekforGeekds](https://www.geeksforgeeks.org/google-sheets/how-to-automate-google-sheets-with-python/)
+To allow the interaction with Google Sheet API, please follow the instructions from Step 1 to Step 3 in [GeeksforGeeks](https://www.geeksforgeeks.org/google-sheets/how-to-automate-google-sheets-with-python/)
 
 With the Google Sheet And Google Drive API enabled, the requirements for the Panel to work is:
  - Google Sheet name must be 'Pattern_Data'.
@@ -30,7 +30,7 @@ With the Google Sheet And Google Drive API enabled, the requirements for the Pan
 
  ![image](Figures/gsheet_data.png)
   
- After following the Credentials GeekforGeek tutorial, the credential `.json` file is provided in the initial panel:
+ After following the Credentials GeeksforGeeks tutorial, the credential `.json` file is provided in the initial panel:
 
 ![image](Figures/Initial_panel.png)
 
