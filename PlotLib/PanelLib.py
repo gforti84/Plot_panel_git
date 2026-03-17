@@ -703,6 +703,12 @@ def run_panel(workbook, keyfile_dict):
         else:
             ax[0].set_ylabel(text_ylabel.value, fontsize = event.new)
 
+        
+        if text_xlabel.value == '':
+            ax[0].set_xlabel(plot_list[-1].x_label, fontsize = event.new)
+        else:
+            ax[0].set_xlabel(text_xlabel.value, fontsize = event.new)
+
 
         if title_switch.value == True:
             ax[0].set_title('', fontsize = 1)
